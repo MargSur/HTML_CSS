@@ -1,0 +1,62 @@
+html{
+    background-color: rgb(209, 185, 139);
+}
+h1{
+    color: rgb(16, 34, 71);
+    font-family: 'Gabriola', sans-serif;
+}
+
+h2{
+    color: rgb(16, 34, 71);
+    font-family: 'Gabriola';
+}
+
+h3{
+    color: rgb(48, 59, 82);
+    font-family: 'Gabriola'; 
+    
+}
+
+a{
+    color: rgb(16, 158, 94);
+}
+
+img{
+    width: 1000px;
+}
+
+.img1{
+    width: 800px;
+}
+
+.img2{
+    width: 700px;
+}
+
+.img3{
+    width: 600px;
+}
+
+.italic_light{
+    font-style: oblique;
+    color: rgb(16, 34, 71);
+    font-family: 'Helicopter', sans-serif;
+}
+
+.bold_light{
+    font-weight: bolder;
+}
+
+@font-face {
+	font-family: 'Gabriola';
+	src: url('source/fonts/gabriola.eot'); /* IE 9 Compatibility Mode */
+	src: url('source/fonts/gabriola.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('source/fonts/gabriola.woff2') format('woff2'), /* Super Modern Browsers */
+		url('source/fonts/gabriola.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('source/fonts/gabriola.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('source/fonts/gabriola.svg#gabriola') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+ul{
+    list-style-type: square;
+}
